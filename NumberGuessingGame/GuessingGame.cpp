@@ -1,4 +1,7 @@
 #include "GuessingGame.h"
+#include <iostream>
+#include <time.h>
+#include <cstdlib>
 
 using namespace System;
 using namespace System::Windows::Forms;
