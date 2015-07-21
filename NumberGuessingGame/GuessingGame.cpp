@@ -7,10 +7,9 @@ using namespace System;
 using namespace System::Windows::Forms;
 using namespace std; //if problems occur, then remove using namespace std
 
-void setGuess();
+void setGuess(int numguess, int guessed);
 int num;
 int guess[7];
-
 [STAThread]
 void Main(array<String^>^ args)
 {
